@@ -5,10 +5,11 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
+#
 
 Pod::Spec.new do |s|
   s.name             = 'Super'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Super handy Swift Extensions'
 
 # This description is used to generate tags and improve search results.
@@ -41,8 +42,8 @@ s.source           = { :git => 'https://github.com/windtalkerz/Super.git' }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
 
-  s.dependency 'Alamofire', '~> 4.5'
   s.dependency 'SwiftyJSON', '~> 3.1'
+  s.dependency 'Alamofire', '~> 4.5'
 
 
 
