@@ -1,0 +1,6 @@
+framework module Super {
+  umbrella header "Super-umbrella.h"
+
+  export *
+  module * { export * }
+}
