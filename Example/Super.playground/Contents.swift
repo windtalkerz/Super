@@ -18,9 +18,21 @@ button.tap()
 
 
 import Alamofire
+import SwiftyJSON
+import PlaygroundSupport
 
-Alamofire.request("").response { (response) in
-    let data = response.data
-    
+PlaygroundPage.current.needsIndefiniteExecution = true
+
+func download() {
+    Alamofire.request("https://httpbin.org/get").response { (response) in
+        DispatchQueue.main.async {
+            if
+                let data = response.data {
+                let json = JSON(data: data)
+                print(json)
+            }
+        }
+    }
 }
 
+download()

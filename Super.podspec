@@ -42,5 +42,8 @@ s.source           = { :git => 'https://github.com/windtalkerz/Super.git' }
   # s.frameworks = 'UIKit', 'MapKit'
 
   s.dependency 'Alamofire', '~> 4.5'
+  s.dependency 'SwiftyJSON', '~> 3.1'
+
+
 
 end

@@ -13,8 +13,9 @@ PODS:
     - Nimble
     - Quick
   - Quick (1.0.0)
-  - Super (0.1.1):
+  - Super (0.1.2):
     - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 3.1)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
@@ -36,9 +37,9 @@ SPEC CHECKSUMS:
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
-  Super: 23877c1b6943f050cac73a1dceda08807eca0fb4
+  Super: e2d545c4b5e4eaa7a9d3555bfd2c2ecf57838c35
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: e7e588c3f969b0eaa0fa09887d0c65b06f7a74d3
+PODFILE CHECKSUM: fab4ba6cbdf4060c7c09013250f04293c29cd938
 
 COCOAPODS: 1.2.0
