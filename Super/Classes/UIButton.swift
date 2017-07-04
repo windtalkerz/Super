@@ -12,4 +12,8 @@ import UIKit
 public extension UIButton {
     
     public func tap() { print("Super.extension UIButton.tap") }
+    
+    public func bind(action: ()->Void) {
+        
+    }
 }
