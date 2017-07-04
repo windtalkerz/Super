@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (4.5.0)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
@@ -12,26 +13,32 @@ PODS:
     - Nimble
     - Quick
   - Quick (1.0.0)
-  - Super (0.1.0)
+  - Super (0.1.1):
+    - Alamofire (~> 4.5)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
+  - Alamofire (~> 4.5)
   - FBSnapshotTestCase
   - Nimble (~> 5.1.1)
   - Nimble-Snapshots
   - Quick (~> 1.0.0)
   - Super (from `../`)
+  - SwiftyJSON (~> 3.1)
 
 EXTERNAL SOURCES:
   Super:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
+  Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
   Nimble-Snapshots: e743439f26c2fa99d8f7e0d7c01c99bcb40aa6f2
   Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
-  Super: 640ba1fd44e9cb7ffa28f4da86d2fd40b891df54
+  Super: 23877c1b6943f050cac73a1dceda08807eca0fb4
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: c0a758ea89dac1d086f2417f979ba979fddad970
+PODFILE CHECKSUM: e7e588c3f969b0eaa0fa09887d0c65b06f7a74d3
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.2.0

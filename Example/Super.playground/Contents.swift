@@ -15,3 +15,12 @@ button.onTouchUpInside = downloadImage
 button.bind(action: downloadImage)
 
 button.tap()
+
+
+import Alamofire
+
+Alamofire.request("").response { (response) in
+    let data = response.data
+    
+}
+

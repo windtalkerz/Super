@@ -2,7 +2,13 @@ use_frameworks!
 
 target 'Super_Example' do
   pod 'Super', :path => '../'
-
+  
+  # third party dependencies
+  pod 'Alamofire', '~> 4.5'
+  pod 'SwiftyJSON', '~> 3.1'
+  
+  
+  
   target 'Super_Tests' do
     inherit! :search_paths
 
