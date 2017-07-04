@@ -9,11 +9,26 @@
 import UIKit
 
 
+fileprivate var _onTouchUpInside: (() -> Void)?
+
+
 public extension UIButton {
     
-    public func tap() { print("Super.extension UIButton.tap") }
-    
-    public func bind(action: ()->Void) {
-        
+    var onTouchUpInside: (() -> Void)? {
+        set {
+            _onTouchUpInside = newValue
+        }
+        get {
+            return _onTouchUpInside
+        }
     }
+    
+    func bind(action: @escaping ()->Void) {
+        _onTouchUpInside = action
+    }
+    
+    
+    func tap() { _onTouchUpInside?() }
+
+    
 }

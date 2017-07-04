@@ -4,7 +4,14 @@ import Super
 
 import UIKit
 
-UIButton().tap()
-UIButton().bind(action: {print("Hallo World")})
+let button = UIButton()
+button.tap()
 
 
+var downloadImage = {print("downloading image...")}
+
+button.onTouchUpInside = downloadImage
+
+button.bind(action: downloadImage)
+
+button.tap()
