@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Super'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Super handy Swift Extensions'
 
 # This description is used to generate tags and improve search results.
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'windtalkerz' => 'windtalkerz@me.com' }
-  s.source           = { :git => 'https://github.com/windtalkerz/Super.git', :tag => s.version.to_s }
-#s.source           = { :git => 'https://github.com/windtalkerz/Super.git' }
+#s.source           = { :git => 'https://github.com/windtalkerz/Super.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/windtalkerz/Super.git' }
 
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
